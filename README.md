@@ -34,6 +34,4 @@ This repository contains a Bash script (`deploy.sh`) that automates the deployme
 - SSH Key Path: `~/.ssh/HNG13_stage1_betrand.pem`
 - Application Port: `8000`.
 
-## Submission
-- Full Name: [Your Full Name]
-- GitHub Repository: [https://github.com/YOUR_USERNAME/devops-task]
+
