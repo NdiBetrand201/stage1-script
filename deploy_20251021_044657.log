@@ -1,0 +1,252 @@
+[2025-10-21 04:46:57] Collecting user input...
+[2025-10-21 04:46:57] Collecting user input...
+Enter Git Repository URL: Enter Personal Access Token: 
+Enter Branch Name (default: main): Enter SSH Username: Enter Server IP: Enter SSH Key Path: Enter Application Port: [2025-10-21 04:51:20] Adding server to known_hosts...
+[2025-10-21 04:51:20] Adding server to known_hosts...
+[2025-10-21 04:51:24] Running on Windows - skipping permission check
+[2025-10-21 04:51:24] Running on Windows - skipping permission check
+[2025-10-21 04:51:24] Cloning repository...
+[2025-10-21 04:51:24] Cloning repository...
+Cloning into 'Stage1'...
+[2025-10-21 04:51:27] Verifying project files...
+[2025-10-21 04:51:27] Testing SSH connection...
+[2025-10-21 04:51:32] Preparing remote environment...
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 24.04.3 LTS (GNU/Linux 6.14.0-1011-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Tue Oct 21 03:51:31 UTC 2025
+
+  System load:  0.0               Temperature:           -273.1 C
+  Usage of /:   44.6% of 6.71GB   Processes:             119
+  Memory usage: 36%               Users logged in:       0
+  Swap usage:   0%                IPv4 address for ens5: 172.31.13.190
+
+ * Ubuntu Pro delivers the most comprehensive open source security and
+   compliance features.
+
+   https://ubuntu.com/aws/pro
+
+Expanded Security Maintenance for Applications is not enabled.
+
+9 updates can be applied immediately.
+9 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+*** System restart required ***
+[2025-10-21 03:51:37] Updating system packages...
+Hit:1 http://af-south-1.ec2.archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 http://af-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:3 http://af-south-1.ec2.archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:4 https://download.docker.com/linux/ubuntu noble InRelease
+Hit:5 http://security.ubuntu.com/ubuntu noble-security InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following upgrades have been deferred due to phasing:
+  distro-info-data
+The following packages have been kept back:
+  linux-aws linux-headers-aws linux-image-aws
+0 upgraded, 0 newly installed, 0 to remove and 4 not upgraded.
+[2025-10-21 03:51:41] Installing Docker...
+[2025-10-21 03:51:41] Installing Docker Compose...
+[2025-10-21 03:51:41] Installing Nginx...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+nginx is already the newest version (1.24.0-2ubuntu7.5).
+0 upgraded, 0 newly installed, 0 to remove and 4 not upgraded.
+Synchronizing state of docker.service with SysV service script with /usr/lib/systemd/systemd-sysv-install.
+Executing: /usr/lib/systemd/systemd-sysv-install enable docker
+Synchronizing state of nginx.service with SysV service script with /usr/lib/systemd/systemd-sysv-install.
+Executing: /usr/lib/systemd/systemd-sysv-install enable nginx
+[2025-10-21 03:51:43] Disabling default Nginx config to avoid conflicts...
+[2025-10-21 03:51:43] Verifying installations...
+Docker version 28.5.1, build e180ab8
+Docker Compose version v2.40.1
+nginx version: nginx/1.24.0 (Ubuntu)
+[2025-10-21 04:51:44] Deploying application...
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 24.04.3 LTS (GNU/Linux 6.14.0-1011-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Tue Oct 21 03:51:31 UTC 2025
+
+  System load:  0.0               Temperature:           -273.1 C
+  Usage of /:   44.6% of 6.71GB   Processes:             119
+  Memory usage: 36%               Users logged in:       0
+  Swap usage:   0%                IPv4 address for ens5: 172.31.13.190
+
+ * Ubuntu Pro delivers the most comprehensive open source security and
+   compliance features.
+
+   https://ubuntu.com/aws/pro
+
+Expanded Security Maintenance for Applications is not enabled.
+
+9 updates can be applied immediately.
+9 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+*** System restart required ***
+[2025-10-21 03:51:48] Cleaning up old deployment directory...
+[2025-10-21 04:51:48] Copying application files...
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 24.04.3 LTS (GNU/Linux 6.14.0-1011-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Tue Oct 21 03:52:54 UTC 2025
+
+  System load:  0.02              Temperature:           -273.1 C
+  Usage of /:   44.6% of 6.71GB   Processes:             123
+  Memory usage: 36%               Users logged in:       0
+  Swap usage:   0%                IPv4 address for ens5: 172.31.13.190
+
+ * Ubuntu Pro delivers the most comprehensive open source security and
+   compliance features.
+
+   https://ubuntu.com/aws/pro
+
+Expanded Security Maintenance for Applications is not enabled.
+
+9 updates can be applied immediately.
+9 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+*** System restart required ***
+[2025-10-21 04:52:50] Building and running Docker container...
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 258B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 1.8s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/5] FROM docker.io/library/python:3.10-slim@sha256:621488956f7e14ca249420e37dbecd59f669a8776bef0429aa89a4ebd8c6de9e
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 269B done
+#5 DONE 0.0s
+
+#6 [3/5] COPY requirements.txt .
+#6 CACHED
+
+#7 [2/5] WORKDIR /app
+#7 CACHED
+
+#8 [4/5] RUN pip install --no-cache-dir -r requirements.txt
+#8 CACHED
+
+#9 [5/5] COPY main.py .
+#9 CACHED
+
+#10 exporting to image
+#10 exporting layers done
+#10 writing image sha256:65e7d862818edf3f4864bbc64f6f6240428a8e81377ef9fff1b8f4434788f16f done
+#10 naming to docker.io/library/fastapi-app done
+#10 DONE 0.0s
+fastapi-container
+fastapi-container
+dcd1458083c1486d848f7701587c0ed8340fac4eb214e9e08644e4b1364da525
+[2025-10-21 04:52:50] Verifying container health...
+[2025-10-21 04:53:04] Configuring Nginx...
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 24.04.3 LTS (GNU/Linux 6.14.0-1011-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Tue Oct 21 03:52:54 UTC 2025
+
+  System load:  0.02              Temperature:           -273.1 C
+  Usage of /:   44.6% of 6.71GB   Processes:             123
+  Memory usage: 36%               Users logged in:       0
+  Swap usage:   0%                IPv4 address for ens5: 172.31.13.190
+
+ * Ubuntu Pro delivers the most comprehensive open source security and
+   compliance features.
+
+   https://ubuntu.com/aws/pro
+
+Expanded Security Maintenance for Applications is not enabled.
+
+9 updates can be applied immediately.
+9 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+*** System restart required ***
+[2025-10-21 04:53:04] Testing Nginx configuration...
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+[2025-10-21 04:53:09] Validating deployment...
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 24.04.3 LTS (GNU/Linux 6.14.0-1011-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Tue Oct 21 03:52:54 UTC 2025
+
+  System load:  0.02              Temperature:           -273.1 C
+  Usage of /:   44.6% of 6.71GB   Processes:             123
+  Memory usage: 36%               Users logged in:       0
+  Swap usage:   0%                IPv4 address for ens5: 172.31.13.190
+
+ * Ubuntu Pro delivers the most comprehensive open source security and
+   compliance features.
+
+   https://ubuntu.com/aws/pro
+
+Expanded Security Maintenance for Applications is not enabled.
+
+9 updates can be applied immediately.
+9 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+*** System restart required ***
+[2025-10-21 04:53:09] Checking Docker service...
+[2025-10-21 04:53:09] Checking container status...
+[2025-10-21 04:53:09] Testing endpoint...
+[2025-10-21 04:53:14] Performing local validation...
+[2025-10-21 04:53:15] \033[0;32mDeployment completed successfully!\033[0m
+[2025-10-21 04:53:15] Application is accessible at: http://13.247.178.255
